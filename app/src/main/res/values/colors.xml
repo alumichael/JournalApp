@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#932139</color>
+    <color name="colorPrimaryDark">#891c27</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="fab_pressed">#546e7a</color>
+
+
+    <color name="editorColorPrimary">#2D3640</color>
+
+    <color name="text">#FFFFFF</color>
+    <color name="splash">#e2e2e2</color>
+
+    <color name="editorColorPrimaryDark">#023266</color>
+</resources>

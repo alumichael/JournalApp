@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name"> My Journal</string>
+    <string name="no_cardetails">Click on the button below to begin creating your diary!</string>
+    <string name="title_activity_add_diary">Add/View Diary Content</string>
+    <string name="title_activity_edit_diary">Edit diary diary</string>
+    <string name="title_activity_licenses">Licenses</string>
+
+    <string name="add_diary">Title</string>
+    <string name="details">Details</string>
+    <string name="startdate">Start Date</string>
+    <string name="stopdate">Stop Date</string>
+    <string name="description">Description</string>
+
+
+    <string name="action_discard_diary">Discard diary diary</string>
+    <string name="action_save_diary">Save diary diary</string>
+
+    <string name="editor_activity_title_new_diary">Add/View Diary Content </string>
+    <string name="editor_activity_title_edit_diary">Edit Diary Entry</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this diary diary?</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_diary_successful">diary diary deleted</string>
+
+    <string name="editor_delete_diary_failed">Error with deleting diary diary</string>
+
+    <string name="editor_insert_diary_successful">diary diary saved</string>
+
+    <string name="editor_insert_diary_failed">Error with saving diary diary</string>
+
+    <string name="editor_update_diary_successful">diary diary updated</string>
+
+    <string name="editor_update_diary_failed">Error with updating diary diary</string>
+
+    <string name="diary_title">diary diary</string>
+    <string name="loading">Loading....</string>
+    <string name="please_wait">Please Wait</string>
+
+
+
+    <string name="action_delete_all_entries">Delete All Employees</string>
+
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <string name="empty_view_subtitle_text">Get started by adding an Employee</string>
+
+    <string name="editor_activity_title_new_employee">Add an Employee</string>
+
+    <string name="editor_activity_title_edit_employee">Edit Employee</string>
+
+    <string name="action_save">Save</string>
+
+
+
+    <string name="editor_insert_employee_successful">Employee saved</string>
+
+    <string name="editor_insert_employee_failed">Error with saving employee</string>
+
+    <string name="editor_update_employee_successful">Employee updated</string>
+
+    <string name="editor_update_employee_failed">Error with updating employee</string>
+
+
+
+    <string name="editor_delete_employee_successful">Employee deleted</string>
+
+    <string name="editor_delete_employee_failed">Error with deleting employee</string>
+
+    <string name="employee_name">Employee Name</string>
+
+    <string name="category_gender">Gender</string>
+
+    <string name="category_title">Employee Title</string>
+
+    <string name="category_department">Employee Department</string>
+
+    <string name="category_city">Employee City</string>
+
+    <string name="category_phone">Employee Phone</string>
+
+    <string name="category_email">Employee Email</string>
+
+    <string name="hint_employee_firstname">First Name</string>
+
+    <string name="hint_employee_title">Title</string>
+
+    <string name="hint_employee_department">Department</string>
+
+    <string name="hint_employee_city">City</string>
+
+    <string name="hint_employee_phone">Phone Number</string>
+
+    <string name="hint_employee_email">Email</string>
+
+    <string name="hint_employee_lastname">Last Name</string>
+
+    <string name="gender_unknown">Unknown</string>
+
+    <string name="gender_male">Male</string>
+
+    <string name="gender_female">Female</string>
+
+    <string name="unknown">Unknown</string>
+
+    <string name="menu_search">Search</string>
+    <string name="search_hint">"Search diarys" </string>
+
+    <string name="uploadImages">Set your image</string>
+    <string name="action_pic">Pictures</string>
+    <string name="instruction_at_main">Click On Journal Title to View the Detail</string>
+    <string name="instruction_dashboard">This Application is to keep your diary saved information or view them </string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="already_account_login_me">Already account ? Login me !</string>
+</resources>
