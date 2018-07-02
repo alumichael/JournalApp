@@ -70,38 +70,38 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         }
         else if(view.getId() == R.id.login_btn_signup)
         {
-            if(Util.Operations.isOnline(this)) {
+
             startActivity(new Intent(Login.this,SignUp.class));
             finish();
 
         }
-        else if(view.getId() == R.id.login_btn_login)
-        {
+        else if(view.getId() == R.id.login_btn_login) {
 
-            if(Util.Operations.isOnline(this)) {
+            if (Util.Operations.isOnline(this)) {
                 loginUser(input_email.getText().toString(), input_password.getText().toString());
                 mProgressDialog.show();
-            }else{
-                    AlertDialog.Builder builder = new AlertDialog.Builder(Login.this);
-                    builder.setMessage("Internet Connection Error")
-                            .setPositiveButton("Okay", new DialogInterface.OnClickListener() {
-                                @Override
-                                public void onClick(DialogInterface dialogInterface, int i) {
+            } else {
+                AlertDialog.Builder builder = new AlertDialog.Builder(Login.this);
+                builder.setMessage("Internet Connection Error")
+                        .setPositiveButton("Okay", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
 
-                                    moveTaskToBack(true);
+                                moveTaskToBack(true);
 
 
-                                    finish();
+                                finish();
 
-                                    // LoginActivity.super.onBackPressed();
-                                }
-                            });
+                                // LoginActivity.super.onBackPressed();
+                            }
+                        });
 
-                    AlertDialog alert = builder.create();
-                    alert.setTitle("Alert !!");
-                    alert.show();
-                }
+                AlertDialog alert = builder.create();
+                alert.setTitle("Alert !!");
+                alert.show();
             }
+
+
         }
     }
 
