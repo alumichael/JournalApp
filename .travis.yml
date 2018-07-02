@@ -11,10 +11,9 @@ android:
     - extra-android-m2repository 
     - extra-google-m2repository 
     - addon-google_apis-google-25
-BEFORE_INSTALL: 
-- chmod +x gradlew 
-- export JAVA8_HOME = / usr / lib / jvm / java-8-oracle 
-- export JAVA_HOME = $ JAVA8_HOME 
+before_install:
+ - chmod +x gradlew
+
 after_success: 
 - chmod +x ./upload-gh-pages. sh 
 - ./upload-apk.sh 
